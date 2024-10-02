@@ -1,18 +1,20 @@
 [tool.poetry]
 name = "mitm6"
 version = "0.1.0"
-description = ""
+description = "mitm6"
 authors = ["syn"]
-readme = ""
+
+packages = [
+    { include = "mitm6" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 scapy = ">=2.4"
 ipaddress = "<3.0"
 future = "<3.0"
-Twisted = "^22.10.0"
+twisted = "^22.10.0"
 netifaces = "^0.11.0"
-
 
 [build-system]
 requires = ["poetry-core"]
