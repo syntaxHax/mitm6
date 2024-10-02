@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mitm6"
+version = "0.1.0"
+description = ""
+authors = ["syn"]
+readme = ""
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scapy = ">=2.4"
+ipaddress = "<3.0"
+future = "<3.0"
+Twisted = "^22.10.0"
+netifaces = "^0.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
